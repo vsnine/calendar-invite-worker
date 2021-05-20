@@ -1,0 +1,5 @@
+account_id = "79a131ae21c06f95bc834497bfd95280"
+name = "cal-inv-wrk"
+type = "webpack"
+workers_dev = true
+site = { bucket = "./public" }
