@@ -66,6 +66,7 @@ async function handleEvent(event) {
     html_content += "<li>dur: duration of the event</li>"
     html_content += "<li>unit: time units for the duration (hours, minutes)</li></ul>"
     html_content += "<p>Uses the <a href=\"https://www.npmjs.com/package/calendar-link\">calendar-link</a> library.<br />"
+    html_content += "The code for this is on Github here: <a href=\"https://github.com/vsnine/calendar-invite-worker\">vsnine/calendar-invite-worker</a><br />"
     html_content += "<a href=\"" + event.request.url + "?title=Invite%20To%20The%20Party&desc=See%20you%20at%20the%20party%2C%20pal%21&start=2019-12-29%2018%3A00%3A00%20%2B0100&dur=30&unit=minutes\">Click here for a sample.</a></p>"
   }
 
